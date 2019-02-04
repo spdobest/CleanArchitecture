@@ -53,7 +53,11 @@ dependencies {
     implementation supportDependencies.supportAnnotation
 
     implementation             daggerDependencies.dagger
-    annotationProcessor daggerDependencies.daggerCompiler
+    annotationProcessor        daggerDependencies.daggerCompiler
+
+    implementation retrofitDependencies.retrofit
+    implementation retrofitDependencies.converterGson
+    implementation 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
 
     implementation rxDependencies.rxJava
     implementation rxDependencies.rxAndroid
@@ -69,4 +73,8 @@ dependencies {
     testImplementation testingDependencies.mockito
     testImplementation testingDependencies.hamcrest
     testImplementation testingDependencies.robolectric
+
+    implementation 'org.parceler:parceler:0.2.16'
+
+    // implementation 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
 }
