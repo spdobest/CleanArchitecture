@@ -10,4 +10,7 @@ public interface WeatherService
 {
     @GET("/data/2.5/weather")
     public void getWeather(@Query("q") String strCity, SortedList.Callback<ApiResponse> callback);
+
 }
+
+

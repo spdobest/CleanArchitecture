@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Sp CleanArchitecture</string>
+
+
+
+
+
+
+
+
+
+
+
+    <!--GITHUB API AND KEYS-->
+    <string name="my_repositories_url">https://api.github.com/users/spdobest/repos?</string>
+    <string name="public_repo_url">https://api.github.com/repositories</string>
+    <string name="details_About_github_apis">https://developer.github.com/v3/repos/#list-all-public-repositories</string>
+    <string name="client_id">63ebdb58230da7458575</string>
+    <string name="client_secret">62c7eb5c6e580e430472323573f575f8d6fd856f</string>
+    <!--END GITHUB-->
 </resources>
